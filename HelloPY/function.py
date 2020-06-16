@@ -41,4 +41,9 @@ globaladd()
 def functions() :
     a = 5
     b = [1,2,3]
-    return a,b
+    return a, b
+
+a, b = functions()
+
+print(a)
+print(b)
